@@ -1,0 +1,11 @@
+<h1>EMPLOYEE DETAIL</h1>
+<hr>
+<table border="1px">
+    {% for employee in employees %}
+    <tr>
+        <td>{{employee[1]}}</td>
+        <td>{{employee[2]}}</td>
+    </tr>
+    {% endfor %}
+</table>
+<a href="addemployee">Add New </a>
